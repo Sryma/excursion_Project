@@ -1,0 +1,135 @@
+
+*{
+    box-sizing: border-box;
+}
+body,html{
+    font-family: Verdana;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+/* 1st para*/
+.excursion h1{
+    font-size: 50px;
+}
+.excursion h5{
+    font-size: 16px;
+    color:aquamarine;
+    text-decoration: underline;
+}
+.excur video {
+   /*position: absolute;
+    top: 100px;*/
+    display: block;
+    width: 100%;
+    height: 700px;
+    text-align: center;
+    color: #fff;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    /*padding-top: 20px;*/
+        }
+/*2nd paragraph*/
+.travel .hill_1,.travel .hill{
+    display:block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.travel h2{
+    font-weight: 300;
+    font-size: 42px;
+}
+.travel p{
+    font-size: 21px;
+    color: grey;
+}
+footer p{
+    text-align: right;
+    color: grey;
+}
+@media only screen and (max-width: 320px)  {
+    .excursion h1{
+    color:pink;
+    font-size: 20px;
+}
+ .excursion h5{
+  margin-top: 10px;
+  border: 1px solid green;
+  font-size: 16px;
+}
+ .excur video{
+    margin-top:10px;
+    border: 1px solid red;
+    width: 100%;
+}
+video{
+    margin-top:-100px;
+}
+    .travel h2{
+    font-weight: 300;
+    font-size: 14px;
+    color: pink;
+}
+.travel p{
+    font-size: 10px;
+}
+.travel .hill_1{
+  display: visible;
+  width: 100%;
+}
+}
+@media only screen and (min-width: 321px) and (max-width: 480px){
+    .excursion h1{
+    font-size: 30px;
+}
+    .travel h2{
+    font-weight: 300;
+    font-size: 20px;
+    color: yellow;
+}
+.travel p{
+    font-size: 14px;
+}
+.travel .hill_1{
+  display: none;
+}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    body,html{
+        background-color: pink;
+    }
+     .excursion h1{
+    font-size: 28px;
+}
+    .travel h2{
+    font-weight: 300;
+    font-size: 22px;
+    color: blue;
+}
+.travel p{
+    font-size: 16px;
+}
+.travel .hill_1{
+    width: 100%;
+}
+}
+@media only screen and (min-width: 769px) and (max-width: 1024px){
+    body,html{
+        background-color: orange;
+    }
+     .excursion h1{
+    font-size: 32px;
+}
+    .travel h2{
+    font-weight: 300;
+    font-size: 26px;
+    color: pink;
+}
+.travel p{
+    font-size: 20px;
+}
+.travel .hill_1{
+    width: 100%;
+}
+}
